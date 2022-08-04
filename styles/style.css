@@ -1,0 +1,152 @@
+/* comment */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300;1,400&display=swap");
+body {
+  display: grid;
+  font-family: "Montserrat";
+  grid-template-rows: 10vh 90vh;
+}
+
+/* navbar section start */
+#navbarMonstera {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+#navFirst {
+  height: 40px;
+  margin-left: 5%;
+}
+#navMid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+#navMid div h4 {
+  text-align: center;
+}
+#navMid div h4:hover {
+  color: #fff;
+  background-color: #1f1f1f;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#navEnd {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#navEnd div {
+  text-align: center;
+}
+#navEnd div img {
+  margin: auto;
+  height: 20px;
+}
+
+/* navbar section end */
+
+/* herosection or mainpage section start */
+#midWhole {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#midWholePart1 {
+  display: grid;
+  grid-template-rows: 0.5fr 0.1fr 0.5fr;
+}
+#midWholePart11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 10%;
+}
+#midWholePart11 div ul li {
+  list-style-type: square;
+  list-style-position: outside;
+}
+/* li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: green;
+  display: inline-block;
+} */
+
+#monstera {
+  font-size: 60px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0px;
+}
+/* part2 */
+#midWholePart12 {
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#midWholePart121 {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  background-color: #1c8d73;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+#midWholePart121 h1 {
+  padding: 0;
+  margin: 0;
+}
+#midWholePart122 img {
+  height: 20px;
+}
+
+/* part2 End */
+
+/* part 3 */
+#midWholePart13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+.midWholePart13Parts {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  justify-content: center;
+  align-items: center;
+}
+.midWholePart13Parts div {
+  text-align: center;
+}
+.midWholePart13Parts div img {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+.midWholePart13Parts div h4 {
+  padding: 0;
+  margin: 0;
+}
+.midWholePart13Parts div p {
+  padding: 0;
+  margin: 0;
+  font-size: 9px;
+  text-align: center;
+}
+/* part 3 End */
+#imgMain {
+  height: 90vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* herosection or mainpage section end */
+/*  */
