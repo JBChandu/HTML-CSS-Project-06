@@ -16,6 +16,6 @@
 ### Time taken to complete this project:
 - It took 3 hour to complete.
 
-**Live Link :** [Deployed Link](https://html-css-project-04.vercel.app/)
+**Live Link :** [Deployed Link](https://html-css-project-06.vercel.app/)
 >### Preview :
 ![Homepage screenshot](preview.png "Plant Home Page")
