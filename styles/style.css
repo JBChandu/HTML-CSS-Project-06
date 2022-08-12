@@ -189,7 +189,7 @@ body {
     position: relative;
     margin-left: 10%;
   }
-  .midWholePart13Parts {
+ #midWholePart13 .midWholePart13Parts{
     gap: 5%;
   }
 }
