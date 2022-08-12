@@ -150,3 +150,46 @@ body {
 }
 /* herosection or mainpage section end */
 /*  */
+/* media queries */
+
+@media only screen and (max-width: 1070px) {
+  #midWholePart12 #midWholePart121 {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  #imgMain {
+    height: 80vh;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 797px) {
+  #navMid {
+    display: none;
+  }
+  #navEnd {
+    grid-column: 3/4;
+  }
+  #midWhole {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  #midWholePart12 #midWholePart121 {
+    font-size: 10px;
+  }
+  #midWholePart13 {
+    margin-top: 40%;
+    margin-left: 25%;
+    gap: 20%;
+  }
+
+  #imgMain {
+    height: 400px;
+    position: relative;
+    margin-left: 10%;
+  }
+  .midWholePart13Parts {
+    gap: 5%;
+  }
+}
